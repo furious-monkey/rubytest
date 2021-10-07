@@ -1,3 +1,6 @@
+require_relative 'thanks'
+require_relative 'error'
+
 def get_name
   puts "What is your surname?:"
   name = gets
@@ -5,10 +8,6 @@ def get_name
   if check_name_ok?(name)
     then print_new_name(name) 
   end
-end
-
-def print_thanks
-  puts "Thanks for that."
 end
 
 def check_name_ok?(nameo)
@@ -19,14 +18,10 @@ def check_name_ok?(nameo)
 end
 
 def print_new_name(namer)
-  newname = namer.concat("po")
+  newname = namer.chomp.concat("po")
+  puts "k, yer new name is:"
   puts newname
 end
 
-def error(sp_message)
-  puts "\n**ERROR**:#{sp_message}.\n"
-end
-
 get_name
-
 
