@@ -1,3 +1,0 @@
-p "helo"
-
-test.rb
