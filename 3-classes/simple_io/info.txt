@@ -1,0 +1,8 @@
+This is very important information :
+	1. I like ruby
+	2. Ruby like me
+	3. u like ruby
+	4. ruby no like u
+	5. sorry
+
+end
