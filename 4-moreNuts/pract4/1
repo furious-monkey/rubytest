@@ -11,32 +11,24 @@ class Book
     @avail = avail;
   end
 
-  def book_name
-    puts "The " + @name
-  end
   #make this an input function? maybe for fun later
   def info
-    puts "        BOOK Info"
+    puts "          BOOK Info"
     yield
-    puts "THEY CALL IT"
     puts "The " + @name
     yield 
-    puts "AUTHOR"
     puts "The " + @author
     yield
-    puts "FROM"
-    puts "The " + @genre + "section"
+    puts "The " + @genre
     yield
   end
 
   def book_avail?
 
     if self.avail>1
-      puts " "
       puts "book is available"
       true
     else
-      puts " "
       puts "sorry this book is all borrowed"
       false
     end

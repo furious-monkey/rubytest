@@ -12,8 +12,29 @@ class Library
     @avail = avail;
   end
 
+  def info
+    puts "        LIBRARY info"
+    yield
+    puts @name
+    yield
+    puts @address
+    yield
+    puts "Total books in stock " + @avail.to_s
+    yield
+  end
+
+
   def member_borrowed
-    p "#{@members.user_name} borrowed #{@book.book_name}"
+      puts "#{@members.user_name}" + " borrowed "
+      puts "#{@book.book_name}"
+      self.borrowed +=1
+      self.avail -=1 
+      "#{@book.this_was_borrowed}"
+      "#{@members.borrowed}"
+  end
+
+  def print_books_avail
+    puts "total books left " + self.avail.to_s;
   end
 
 end
