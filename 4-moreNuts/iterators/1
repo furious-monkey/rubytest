@@ -1,0 +1,7 @@
+def weird(arr1, out=[])
+  arr1.each {|ele1|
+    out = puts ele1 + " out"}
+  out
+end
+
+p weird(["a", "c", "x"])

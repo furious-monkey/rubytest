@@ -6,8 +6,8 @@ class Library
   def initialize(name, address, members, book, borrowed, avail)
     @name = name;
     @address = address;
-    @members = members;
-    @book = book;
+    @members = [];
+    @book = [];
     @borrowed = borrowed;
     @avail = avail;
   end
