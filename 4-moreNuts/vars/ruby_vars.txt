@@ -1,0 +1,9 @@
+Ruby Vars..
+
+Local: has letter3, numbers, or _
+Global: start with $
+Instance: start with @
+Class: @@
+** Constants---Class & names: PI, FeetPerM, String, JazzS
+
+
