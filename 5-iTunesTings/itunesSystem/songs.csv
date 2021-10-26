@@ -1,0 +1,37 @@
+"Songname","Artist","Album","Time","Id"
+# THIS FILE CONTAINS ALL SONGS IN iTunes
+# Aug 29 2014
+######################################################
+# 			All SONGS
+#######################################################
+# (1) This file can be very sensitive to errors.
+# (2) note, that there is no space after a comma
+# (3) all entries are strings except time which is a float
+# (4) we need to explicitly write code to ignore the commented lines
+#######################################################
+# Plastic Beach by Gorillaz
+"Superfast Jellyfish","Gorillaz","Plastic Beach",2.55,10
+"On Melancholy Hill","Gorillaz","Plastic Beach",3.54,11
+"Broken","Gorillaz","Plastic Beach",3.17,12
+#
+# I Had the Blues and I Shook Them Loose by  Bombay Bicycle Club
+"Always Like This","Bombay Bicycle Club","I Had the Blues and I Shook Them Loose",4.06,13
+#
+# Horehound by The Dead Weather
+"60 Feet Tall","The Dead Weather","Horehound",5.33,14
+"I Cut Like a Buffalo","The Dead Weather","Horehound",3.28,15
+"So Far From Your Weapon","The Dead Weather","Horehound",3.40,16
+#
+# Straight in No Kissing by  Dirty Epics
+"Way Too Pretty","Dirty Epics","Straight in No Kissing",3.19,17
+"Pony","Dirty Epics","Straight in No Kissing",3.14,18
+"The Cure","Dirty Epics","Straight in No Kissing",2.96,19
+#
+# Crystal Castles by  Crystal Castles                                       a
+"Untrust Us","Crystal Castles","Crystal Castles",3.06,20
+"Air War","Crystal Castles","Crystal Castles",4.02,21
+#
+# Disco Crap  by  Multiple Artists
+"Staying Alive","The GBs","Disco Crap",3.06,22
+"Staying Alive","The GBs","Disco Crap",3.06,23
+"Bling","SalboNedam","Disco Crap",4.02,24
