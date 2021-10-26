@@ -58,8 +58,8 @@ puts "\nPrinting full details of all songs..."
 $songs.each{|song| p song}
 
 puts "\nPrinting full details of all Albums..."
-$albums.each{|album| p album}
-
+#$albums.each{|album| p album}
+$albums.each{|album| puts album.to_s}
 # Call it like this in the command line.
 # markkean% ruby itunes.rb songs.csv owners.csv
 
